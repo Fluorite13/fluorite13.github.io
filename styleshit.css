@@ -3,6 +3,8 @@
      font-family:'Poppins', sans-serif;
      box-sizing: border-box;
      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
 }
 body{
      background: #121212;
@@ -183,8 +185,9 @@ section h2{
           align-items: center;
      }
 }@media screen and (min-width: 0px) and (max-width: 500px) {
-     #shape { display: none; }  /* жижиг screen дээр */
+     #shape {display: none; }  /* жижиг screen дээр */
      .layer {display: none;}
+     #discord{font-size: 0.8em;}
    }
    
    @media screen and (min-width: 401px) and (max-width: 1024px) {
@@ -201,7 +204,7 @@ section h2{
    /** ----------------------------------------------------------------- */
    .typing-demo {
      width: 8ch;
-     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+     animation: typing 2.4s steps(22), blink .5s step-end infinite alternate;
      white-space: nowrap;
      overflow: hidden;
      border-right: 3px solid;
@@ -280,9 +283,6 @@ section h2{
      }
      100% {
        color: #ffe6ff;
-       /* text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #FF4F59,
-         -0.2rem 0.1rem 1rem #FF4F59, 0.2rem 0.1rem 1rem #FF4F59,
-         0 -0.5rem 2rem #FF4F59, 0 0.5rem 3rem #FF4F59; */
      }
    }
    
@@ -472,4 +472,100 @@ section h2{
 	height: 100%;
 	background: linear-gradient(to top, #008aff,#00ffe7);
 	filter: blur(30px);
+}
+/**----------------------------------------------------------------------  */
+
+
+
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #fff 10px solid;
+	border-radius: 35px 35px  0 0 ;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #A99C94 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+	background: #A99C94;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{ 
+	font-size: 20px;
+	font-weight: 100;
+	margin-top:80px;
+	margin-left:40px;
+  line-height: 0;
+}
+.discord{
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-size: 2em;
+  color: #4c6ad4;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.discord:hover{
+  text-decoration: none;
+  color: #3b52a7;
+}
+#copy{
+ margin-top: 60px;
 }
