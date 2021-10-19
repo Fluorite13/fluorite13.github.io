@@ -40,3 +40,6 @@ window.onscroll = function () {
      let progressHeight = (window.pageYOffset / totalHeight) * 80;
      progress.style.height = progressHeight + "%";
 }
+
+
+
