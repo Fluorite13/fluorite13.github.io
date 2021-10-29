@@ -1,14 +1,1 @@
-document.onkeydown = function (e) {
-     if (event.keyCode == 123) {
-          return false;
-     }
-     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-          return false;
-     }
-     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-          return false;
-     }
-     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-          return false;
-     }
-}
+function _0x52d7(_0x3fe005, _0x5dee7a) { var _0x3aab90 = _0x3aab(); return _0x52d7 = function (_0x52d784, _0x3943c7) { _0x52d784 = _0x52d784 - 0x13b; var _0xca046d = _0x3aab90[_0x52d784]; return _0xca046d; }, _0x52d7(_0x3fe005, _0x5dee7a); } function _0x3aab() { var _0x54e797 = ['10903574IpnAAU', '3011700CbuGRi', '928yPiUVS', '12420klbKYR', '34614iUpkmT', '12ZFOHUq', '681530leELQU', '21jsmvIb', 'shiftKey', '7tsGrSy', 'keyCode', '2971690hRNxGP', '171420vvnuSt', 'ctrlKey', '44GPSSTT']; _0x3aab = function () { return _0x54e797; }; return _0x3aab(); } (function (_0x5028a6, _0x5a3447) { var _0x36b37d = _0x52d7, _0x2325d5 = _0x5028a6(); while (!![]) { try { var _0x51e5e7 = parseInt(_0x36b37d(0x142)) / 0x1 + -parseInt(_0x36b37d(0x148)) / 0x2 * (parseInt(_0x36b37d(0x143)) / 0x3) + parseInt(_0x36b37d(0x13b)) / 0x4 * (parseInt(_0x36b37d(0x13f)) / 0x5) + -parseInt(_0x36b37d(0x13d)) / 0x6 * (-parseInt(_0x36b37d(0x145)) / 0x7) + parseInt(_0x36b37d(0x13e)) / 0x8 * (parseInt(_0x36b37d(0x140)) / 0x9) + parseInt(_0x36b37d(0x147)) / 0xa + -parseInt(_0x36b37d(0x13c)) / 0xb * (parseInt(_0x36b37d(0x141)) / 0xc); if (_0x51e5e7 === _0x5a3447) break; else _0x2325d5['push'](_0x2325d5['shift']()); } catch (_0x1a349b) { _0x2325d5['push'](_0x2325d5['shift']()); } } }(_0x3aab, 0x58999), document['onkeydown'] = function (_0x2c73b6) { var _0x3cc368 = _0x52d7; if (event[_0x3cc368(0x146)] == 0x7b) return ![]; if (_0x2c73b6['ctrlKey'] && _0x2c73b6['shiftKey'] && _0x2c73b6['keyCode'] == 'I'['charCodeAt'](0x0)) return ![]; if (_0x2c73b6['ctrlKey'] && _0x2c73b6[_0x3cc368(0x144)] && _0x2c73b6[_0x3cc368(0x146)] == 'J'['charCodeAt'](0x0)) return ![]; if (_0x2c73b6[_0x3cc368(0x149)] && _0x2c73b6['keyCode'] == 'U'['charCodeAt'](0x0)) return ![]; });
